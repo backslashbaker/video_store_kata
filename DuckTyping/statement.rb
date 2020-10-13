@@ -22,9 +22,9 @@ class Statement
 end
 
 
-land_before_time = RegularMovie.new("Land Before Time", 365)
-tenent = NewReleaseMovie.new("Tenent", 4)
-mulan = ChildrenMovie.new("Mulan (1999)", 5)
+land_before_time = Movie.new(:regular,"Land Before Time", 365)
+tenent = Movie.new(:new_release,"Tenent", 4)
+mulan = Movie.new(:children,"Mulan (1999)", 5)
 
 movie_list = [land_before_time, tenent, mulan]
 
